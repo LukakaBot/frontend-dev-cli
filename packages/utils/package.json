@@ -1,17 +1,17 @@
 {
-  "name": "@frontend-dev-cli/core",
+  "name": "@frontend-dev-cli/utils",
   "version": "0.0.0",
-  "description": "cli核心包",
+  "description": "> TODO: description",
   "author": "Lokaka <monishine_code@163.com>",
   "homepage": "https://github.com/LukakaBot/frontend-dev-cli#readme",
   "license": "ISC",
-  "main": "lib/core.js",
+  "main": "build/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "build"
   ],
   "publishConfig": {
     "registry": "https://registry.npmmirror.com/"
@@ -22,12 +22,9 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "node ./__tests__/@frontend-dev-cli/core.test.js"
+    "test": "node ./__tests__/@frontend-dev-cli/utils.test.js"
   },
   "bugs": {
     "url": "https://github.com/LukakaBot/frontend-dev-cli/issues"
-  },
-  "dependencies": {
-    "@frontend-dev-cli/utils": "^0.0.0"
   }
 }
