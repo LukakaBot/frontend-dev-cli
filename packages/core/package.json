@@ -1,6 +1,6 @@
 {
   "name": "@frontend-dev-cli/core",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "cli核心包",
   "author": "Lokaka <monishine_code@163.com>",
   "homepage": "https://github.com/LukakaBot/frontend-dev-cli#readme",
@@ -28,6 +28,6 @@
     "url": "https://github.com/LukakaBot/frontend-dev-cli/issues"
   },
   "dependencies": {
-    "@frontend-dev-cli/utils": "^0.0.0"
+    "@frontend-dev-cli/utils": "^0.0.1"
   }
 }
