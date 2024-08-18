@@ -21,7 +21,7 @@
     "url": "git+https://github.com/LukakaBot/frontend-dev-cli.git"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --watch",
     "test": "node ./__tests__/@frontend-dev-cli/utils.test.js"
   },
   "bugs": {
