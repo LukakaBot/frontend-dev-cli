@@ -7,6 +7,7 @@
   "scripts": {
     "lerna-init": "lerna init",
     "lerna-create": "lerna create",
+    "lerna-publish": "lerna publish",
     "build": "turbo run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
